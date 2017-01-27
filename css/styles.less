@@ -1,0 +1,53 @@
+
+#main-carousel {
+    max-width: 960px;
+    margin: 0 auto;
+
+    .carousel-control {
+        span.glyphicons {
+            top: 50%;
+            margin-top: -30px;
+            position: relative;
+        }
+    }
+
+    .carousel-indicators {
+        li {
+            margin: 0 5px;
+        }
+    }
+
+    .carousel-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
+
+    .nav-link {
+        flex-grow: 1;
+        height: 70px;
+        color: black;
+        cursor: pointer;
+        align-self: auto;
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        background-color: grey;
+
+        &:hover {
+            background-color: #333;
+        }
+    }
+}
+
+
